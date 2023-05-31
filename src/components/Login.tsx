@@ -19,8 +19,6 @@ const Login = () => {
 
     const { name, picture, sub } = decoded;
 
-    console.log(name, picture, sub);
-
     const doc = {
       _id: sub,
       _type: "user",
