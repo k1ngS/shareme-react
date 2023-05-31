@@ -6,6 +6,7 @@ export const fetchUser = () => {
     userInfo = JSON.parse(storedUser);
   } else {
     localStorage.clear();
+    return null;
   }
 
   return userInfo;
